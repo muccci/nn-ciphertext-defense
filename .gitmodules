@@ -1,0 +1,9 @@
+[submodule "writeback-protect/glow"]
+	path = writeback-protect/glow
+	url = https://github.com/Mocciteen/glow-writeback.git
+[submodule "writeback-protect/llvm-14.0.6"]
+	path = writeback-protect/llvm-14.0.6
+	url = https://github.com/Mocciteen/llvm-14-writeback.git
+[submodule "writeback-protect/tvm"]
+	path = writeback-protect/tvm
+	url = https://github.com/Mocciteen/tvm-writeback.git

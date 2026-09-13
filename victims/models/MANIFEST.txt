@@ -1,0 +1,22 @@
+# Victim ONNX. Collect reads data/inputs/<family>/<variant>/<split>/idx*
+# via scripts/collect_inputs.py (not a bin next to the ONNX).
+# ImageNet rows use imagenet50_96 (96x96 / 50-class).
+# T01/T04/T10 are the attack-aligned packs (mnist64 / cifar32 / chest 1ch).
+# Columns: mc  paper_group  sha256(onnx)  dest_rel  default_sample
+MC01  T01  cba5224c08045bd54d12f5be55cbf59dbd8ca0490f35fe720036dc677317b7d4  lenet/mnist64/lenet_mnist64.onnx  mnist64
+MC02  T02  fc34d0b056437c69652a4f30e49c1d0ace6fbac63edbe7a08e743bf6e37ae1c0  vggnet/mnist/vgg_mnist.onnx  idx00114
+MC03  T03  aeca51bc1500c18355a080d01f8e84bc8b44a31737075e5e0644a115a4d843ac  vggnet/cifar/vgg_cifar.onnx  idx00042
+MC04  T04  9e38e23b4b5537487f93c984d70e072005e47bc462ea0e7426e59882abd47eaf  SqueezeNet/cifar32/squeezenet1_0_cifar32.onnx  idx00042
+MC05  T05  2ccc74810ac8308ac2e4da610d037d239552034e410f2d0bc85d2d40c801d0c2  SqueezeNet/imagenet50_96/squeezenet1_0_imagenet50_96.onnx  idx00042
+MC06  T06  59619435ba35688616c93813cdfbfcbde977618e0fb5682466df637990e36465  resnet/mnist/resnet18_mnist.onnx  idx00042
+MC07  T07  9563e9e4662d610fdb42f9a5f75cae899773ceeaf293552d99cfab8ef6b12ab0  resnet/cifar/resnet18_cifar.onnx  idx00042
+MC08  T08  86527f1c592333222c987e1f91988076c03737c74757aa92262525892c75cee8  resnet/imagenet50_96/resnet18_imagenet50_96.onnx  idx00042
+MC09  T09  d78261333d88350f143eb0ebf0342ecaefc8d354dbd6fe591ff4821004efb2fb  resnet/celea/resnet18_celea.onnx  idx00042
+MC10  T10  b9ab73ac194309b96d32cd9a1d87930c03534fc17ac0d410db16638ee70b5cc8  resnet/chest_single_channel/resnet18_chest_single_channel.onnx  idx00042
+MC11  T11  ab0df3d4f41ebb7d37929bb7a39fb8a48ec5f0ad18e76f010d368d715bf70255  mobilenet/mnist/mobilenet_v2_mnist.onnx  idx00042
+MC12  T12  43d49298ca77f5147c72824354ddf214d47a5085c338ddee029bb4047bbff83a  mobilenet/cifar/mobilenet_v2_cifar.onnx  idx00042
+MC13  T13  93560fc1fa3871c9489c13d5cf30bcc28e84cce5e8f7b58f40928bfeb5b85295  mobilenet/celea/mobilenet_v2_celea.onnx  idx00042
+MC14  T14  a845332221197e870662af65f7c9c66c26bfc39266c58d81525bf6b7ee872b5e  mobilenet/chest/mobilenet_v2_chest.onnx  idx00042
+MC15  T15  97f662805a7415821a57eecee9fd367b7e8a355a20cee74a07fa372f4e991e99  densenet/imagenet50_96/densenet121_imagenet50_96.onnx  idx00114
+MC16  T16  adcfbb111a20e65915ee2c72edad73c18e2495af6c47d72c544cb1a3e5cb7f1e  densenet/celea/densenet_celea.onnx  idx00042
+MC17  T17  16f8b025bc29b1613be0e1670fa9fc8109fff0d7a51ea21b69402f7b29a935e9  densenet/chest/densenet_chest.onnx  idx00042

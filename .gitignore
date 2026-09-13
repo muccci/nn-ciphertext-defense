@@ -1,0 +1,25 @@
+# Products — not source
+attack/priors/**/*.pth
+attack/priors/**/*.pkl
+data/mnist/
+data/cifar10/
+data/imagenet50_96/
+data/celeba/
+data/chestxray14/
+data/inputs/
+trace_out/
+acc_out/
+overhead_out/
+attack_out/
+perturbation_out/
+rho_static_out/
+victims/glow/libs/
+victims/tvm/libs/
+victims/glow/bundles/
+victims/tvm/bin/
+pintrace/pin/
+pintrace/tool/obj-intel64/
+
+**/__pycache__/
+*.pyc
+.cursor/

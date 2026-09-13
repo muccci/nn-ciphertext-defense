@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# MixIR writeback params for Glow victim compile / run (Def+).
+# Source before inference when GLOW_WRITEBACK_PROTECT=1.
+export GLOW_RELU_PATCH_BITS="${GLOW_RELU_PATCH_BITS:-30}"
+export GLOW_RELU_PATCH_FIXED_BITS="${GLOW_RELU_PATCH_FIXED_BITS:-7}"
+export GLOW_RELU_PATCH_FIXED_VALUE="${GLOW_RELU_PATCH_FIXED_VALUE:-117}"
+export GLOW_RELU_PATCH_INC="${GLOW_RELU_PATCH_INC:-3}"
+export GLOW_RELU_PATCH_POSITIVE="${GLOW_RELU_PATCH_POSITIVE:-0}"

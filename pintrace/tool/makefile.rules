@@ -1,0 +1,2 @@
+# Only taintblock16trace is built here.
+TOOL_ROOTS := taintblock16trace
