@@ -12,7 +12,7 @@ ONNX victims, compile scripts, Pin tool source, and attack / metric doors.
 | `writeback-protect/` | Glow / LLVM / TVM submodules |
 
 ```bash
-git clone --recurse-submodules https://github.com/Mocciteen/nn-ciphertext-defense.git
+git clone --recurse-submodules https://github.com/muccci/nn-ciphertext-defense.git
 bash scripts/build_writeback_protect.sh
 bash victims/glow/compile.sh
 bash victims/tvm/compile.sh
